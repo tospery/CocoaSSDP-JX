@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01948DA75E6883292F4DCE8CE6AF2592 /* SSDPService.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BFC1A05C839EB6414C07C5E9B852BF /* SSDPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06E0299C51A77593974EDD223E4C1D32 /* SSDPServiceBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6891212D622D60354B8A5D678D38579E /* SSDPServiceBrowser.m */; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7215DF9F63A8D09187C4B2256176E /* Foundation.framework */; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E58B4CB045F3ED7F0EA82D1966E459 /* CFNetwork.framework */; };
+		35D3AF241BB20028C296817B95A54564 /* SSDPServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F68C95EED56D2737288D2986D2BA488 /* SSDPServiceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373B27CF5B312BF78D104143C1E63E19 /* Pods-CocoaSSDP-JX_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D81ACC90C3DE780CE1406B6D1F527035 /* Pods-CocoaSSDP-JX_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */; };
+		39690262C85275D37FEAC9B4D9B15F29 /* SSDPServiceBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 915E68F114EA3263DDC2432C067AFB57 /* SSDPServiceBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD4CF9CDA6E13068379E614F39A8698 /* SSDPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 91748C801B5567194E1265DB449A1698 /* SSDPService.m */; };
+		4B57ADA90DE563A53E4F9EAA0FE7FB63 /* SSDPServiceTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8E10C632D32D4549DDCFB2D72B7C3 /* SSDPServiceTypes.m */; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DEE8A2C9D85B1AE3111A98DABA3911 /* GCDAsyncSocket.m */; };
+		600D861F7705525D4EC445E24AECB83C /* CocoaSSDP-JX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F36FA8C2ADC214E11DE00FFD6519EBFD /* CocoaSSDP-JX-dummy.m */; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FD8CCF98F599150795EA46C5ED9D5C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07E1D5A181D80D8020182D57B1913B4 /* UIKit.framework */; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D53D2468F4A76F969B555628969C00 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		838B23409D9DE1C968FA5E77CF6866D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7215DF9F63A8D09187C4B2256176E /* Foundation.framework */; };
+		875D26F0EED3032B7EA13237DFCF1AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7215DF9F63A8D09187C4B2256176E /* Foundation.framework */; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED2DAEAC057FB9A976C6231C089783A /* Security.framework */; };
+		ACBB3BE3F2EC8EC42B5728B0C9C50F5C /* Pods-CocoaSSDP-JX_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815B4338D5167897CAADF638F47DDDA /* Pods-CocoaSSDP-JX_Example-dummy.m */; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A540CB2025190A6F433E1A53119CA8 /* CocoaSSDP-JX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E30ACC6184FF38EB96371DC1EBAFD3F /* CocoaSSDP-JX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		769FE5880AA40AF44047CE2C16551C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		90D6E7A98B496B1B053B0CC5BA1E76A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		9E47CF560906BDB2433C4AA073B8D93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D1EA6369601958CA74466ECEC409ED9;
+			remoteInfo = "CocoaSSDP-JX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D031E282A5CFCC3CF35A9CB78018FE /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		1A7CF9F2D85AD6EB2D9F534DBEC491A7 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		1AB7917E465B1CA61D1A49B9D10094FB /* Pods-CocoaSSDP-JX_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaSSDP-JX_Example-Info.plist"; sourceTree = "<group>"; };
+		1FC8E10C632D32D4549DDCFB2D72B7C3 /* SSDPServiceTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPServiceTypes.m; path = "CocoaSSDP-JX/Classes/SSDPServiceTypes.m"; sourceTree = "<group>"; };
+		35810EC95A8C1ECEB8B73AFFD3054AFF /* Pods-CocoaSSDP-JX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaSSDP-JX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41DEE8A2C9D85B1AE3111A98DABA3911 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		44D62DA78B49F83F21EA7F5DD73D8BE7 /* CocoaSSDP-JX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "CocoaSSDP-JX"; path = CocoaSSDP_JX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9C2332217FBB36059B4942C0A6CC38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F68C95EED56D2737288D2986D2BA488 /* SSDPServiceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceTypes.h; path = "CocoaSSDP-JX/Classes/SSDPServiceTypes.h"; sourceTree = "<group>"; };
+		517D13E58160E6AF4CC90189C711892E /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		51E58B4CB045F3ED7F0EA82D1966E459 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		559DF91C254F30A7BCB726BF72FEFB7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5815B4338D5167897CAADF638F47DDDA /* Pods-CocoaSSDP-JX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaSSDP-JX_Example-dummy.m"; sourceTree = "<group>"; };
+		5CE1E8858C6639EA2736554B50D9F3CC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		65B9CCF07A05E752A5E1B4558FCC82B0 /* CocoaSSDP-JX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaSSDP-JX.release.xcconfig"; sourceTree = "<group>"; };
+		6891212D622D60354B8A5D678D38579E /* SSDPServiceBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPServiceBrowser.m; path = "CocoaSSDP-JX/Classes/SSDPServiceBrowser.m"; sourceTree = "<group>"; };
+		6977B45667C6173172281A9C759A1D6F /* CocoaSSDP-JX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaSSDP-JX.debug.xcconfig"; sourceTree = "<group>"; };
+		6BDE4DF64E5350534CEC29E275895089 /* Pods-CocoaSSDP-JX_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CocoaSSDP-JX_Example"; path = Pods_CocoaSSDP_JX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE6FF628A1ED6C5EDED3819752739F9 /* Pods-CocoaSSDP-JX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaSSDP-JX_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F29FE7499B83FB5FD580208F4E0F8D /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		798656C9C3D5A243009430B653ACD309 /* Pods-CocoaSSDP-JX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CocoaSSDP-JX_Example.modulemap"; sourceTree = "<group>"; };
+		87D53D2468F4A76F969B555628969C00 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		87E92747B4CE900EEB8A8AFA65250491 /* Pods-CocoaSSDP-JX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaSSDP-JX_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E30ACC6184FF38EB96371DC1EBAFD3F /* CocoaSSDP-JX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSSDP-JX-umbrella.h"; sourceTree = "<group>"; };
+		915E68F114EA3263DDC2432C067AFB57 /* SSDPServiceBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceBrowser.h; path = "CocoaSSDP-JX/Classes/SSDPServiceBrowser.h"; sourceTree = "<group>"; };
+		91748C801B5567194E1265DB449A1698 /* SSDPService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPService.m; path = "CocoaSSDP-JX/Classes/SSDPService.m"; sourceTree = "<group>"; };
+		9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BED2DAEAC057FB9A976C6231C089783A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		CA111151262A9279B29C2822BBBD1E70 /* CocoaSSDP-JX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSSDP-JX-prefix.pch"; sourceTree = "<group>"; };
+		D0B2D78C6F9CED449B243AFAC5A42829 /* Pods-CocoaSSDP-JX_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaSSDP-JX_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5BFC1A05C839EB6414C07C5E9B852BF /* SSDPService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPService.h; path = "CocoaSSDP-JX/Classes/SSDPService.h"; sourceTree = "<group>"; };
+		D5ECFA7DD7CE2D9E8386B6A61297DAE6 /* CocoaSSDP-JX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CocoaSSDP-JX.modulemap"; sourceTree = "<group>"; };
+		D772B3278579C3685B55F2D0D9AA2764 /* CocoaSSDP-JX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "CocoaSSDP-JX.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D81ACC90C3DE780CE1406B6D1F527035 /* Pods-CocoaSSDP-JX_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaSSDP-JX_Example-umbrella.h"; sourceTree = "<group>"; };
+		D8FC271883DDBDCDCC7162EA088F5DEF /* CocoaSSDP-JX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaSSDP-JX-Info.plist"; sourceTree = "<group>"; };
+		DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		E07E1D5A181D80D8020182D57B1913B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECABC9E3726F96C7238900167C1E53CC /* Pods-CocoaSSDP-JX_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaSSDP-JX_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F36FA8C2ADC214E11DE00FFD6519EBFD /* CocoaSSDP-JX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaSSDP-JX-dummy.m"; sourceTree = "<group>"; };
+		FCD7215DF9F63A8D09187C4B2256176E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45AA40445BED6D0505C29775179CAAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838B23409D9DE1C968FA5E77CF6866D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0518017F20926705A4E9AFEBFFB9C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875D26F0EED3032B7EA13237DFCF1AE8 /* Foundation.framework in Frameworks */,
+				6FD8CCF98F599150795EA46C5ED9D5C4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157ABB43287A8BC4F7BF659CBDB6029C /* Pods-CocoaSSDP-JX_Example */ = {
+			isa = PBXGroup;
+			children = (
+				798656C9C3D5A243009430B653ACD309 /* Pods-CocoaSSDP-JX_Example.modulemap */,
+				35810EC95A8C1ECEB8B73AFFD3054AFF /* Pods-CocoaSSDP-JX_Example-acknowledgements.markdown */,
+				D0B2D78C6F9CED449B243AFAC5A42829 /* Pods-CocoaSSDP-JX_Example-acknowledgements.plist */,
+				5815B4338D5167897CAADF638F47DDDA /* Pods-CocoaSSDP-JX_Example-dummy.m */,
+				ECABC9E3726F96C7238900167C1E53CC /* Pods-CocoaSSDP-JX_Example-frameworks.sh */,
+				1AB7917E465B1CA61D1A49B9D10094FB /* Pods-CocoaSSDP-JX_Example-Info.plist */,
+				D81ACC90C3DE780CE1406B6D1F527035 /* Pods-CocoaSSDP-JX_Example-umbrella.h */,
+				87E92747B4CE900EEB8A8AFA65250491 /* Pods-CocoaSSDP-JX_Example.debug.xcconfig */,
+				6BE6FF628A1ED6C5EDED3819752739F9 /* Pods-CocoaSSDP-JX_Example.release.xcconfig */,
+			);
+			name = "Pods-CocoaSSDP-JX_Example";
+			path = "Target Support Files/Pods-CocoaSSDP-JX_Example";
+			sourceTree = "<group>";
+		};
+		1FF0D8E5D4518EBCF75C898A098B1798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				44D62DA78B49F83F21EA7F5DD73D8BE7 /* CocoaSSDP-JX */,
+				6BDE4DF64E5350534CEC29E275895089 /* Pods-CocoaSSDP-JX_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FBA2814F5B8EB1A46334124B635D73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15D031E282A5CFCC3CF35A9CB78018FE /* CocoaAsyncSocket.modulemap */,
+				DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */,
+				517D13E58160E6AF4CC90189C711892E /* CocoaAsyncSocket-Info.plist */,
+				5CE1E8858C6639EA2736554B50D9F3CC /* CocoaAsyncSocket-prefix.pch */,
+				87D53D2468F4A76F969B555628969C00 /* CocoaAsyncSocket-umbrella.h */,
+				1A7CF9F2D85AD6EB2D9F534DBEC491A7 /* CocoaAsyncSocket.debug.xcconfig */,
+				72F29FE7499B83FB5FD580208F4E0F8D /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		772B756450708C284B612FFBF86383D3 /* CocoaSSDP-JX */ = {
+			isa = PBXGroup;
+			children = (
+				D5BFC1A05C839EB6414C07C5E9B852BF /* SSDPService.h */,
+				91748C801B5567194E1265DB449A1698 /* SSDPService.m */,
+				915E68F114EA3263DDC2432C067AFB57 /* SSDPServiceBrowser.h */,
+				6891212D622D60354B8A5D678D38579E /* SSDPServiceBrowser.m */,
+				4F68C95EED56D2737288D2986D2BA488 /* SSDPServiceTypes.h */,
+				1FC8E10C632D32D4549DDCFB2D72B7C3 /* SSDPServiceTypes.m */,
+				C2C24CC6B6CC94470094C889BC9ACF8D /* Pod */,
+				F1400A300B26A6CB2F3352697D6FCCCD /* Support Files */,
+			);
+			name = "CocoaSSDP-JX";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9A7FB11C0287E6F39A2CE4CC4BD05B84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				51E58B4CB045F3ED7F0EA82D1966E459 /* CFNetwork.framework */,
+				FCD7215DF9F63A8D09187C4B2256176E /* Foundation.framework */,
+				BED2DAEAC057FB9A976C6231C089783A /* Security.framework */,
+				E07E1D5A181D80D8020182D57B1913B4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FB11C0287E6F39A2CE4CC4BD05B84 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26488BF13288A9B8CB091FA9570EC0F /* CocoaAsyncSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2C24CC6B6CC94470094C889BC9ACF8D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D772B3278579C3685B55F2D0D9AA2764 /* CocoaSSDP-JX.podspec */,
+				4C9C2332217FBB36059B4942C0A6CC38 /* LICENSE */,
+				559DF91C254F30A7BCB726BF72FEFB7A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CA0C34B50C943713F993E7849ACFC22F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				772B756450708C284B612FFBF86383D3 /* CocoaSSDP-JX */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CA0C34B50C943713F993E7849ACFC22F /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */,
+				1FF0D8E5D4518EBCF75C898A098B1798 /* Products */,
+				DE953AC2D569D27F629AB440C512913A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE953AC2D569D27F629AB440C512913A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				157ABB43287A8BC4F7BF659CBDB6029C /* Pods-CocoaSSDP-JX_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F1400A300B26A6CB2F3352697D6FCCCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5ECFA7DD7CE2D9E8386B6A61297DAE6 /* CocoaSSDP-JX.modulemap */,
+				F36FA8C2ADC214E11DE00FFD6519EBFD /* CocoaSSDP-JX-dummy.m */,
+				D8FC271883DDBDCDCC7162EA088F5DEF /* CocoaSSDP-JX-Info.plist */,
+				CA111151262A9279B29C2822BBBD1E70 /* CocoaSSDP-JX-prefix.pch */,
+				8E30ACC6184FF38EB96371DC1EBAFD3F /* CocoaSSDP-JX-umbrella.h */,
+				6977B45667C6173172281A9C759A1D6F /* CocoaSSDP-JX.debug.xcconfig */,
+				65B9CCF07A05E752A5E1B4558FCC82B0 /* CocoaSSDP-JX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CocoaSSDP-JX";
+			sourceTree = "<group>";
+		};
+		F26488BF13288A9B8CB091FA9570EC0F /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */,
+				41DEE8A2C9D85B1AE3111A98DABA3911 /* GCDAsyncSocket.m */,
+				C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */,
+				78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */,
+				20FBA2814F5B8EB1A46334124B635D73 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		119D97C95F69A18ABCACB07FFA4EE57E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373B27CF5B312BF78D104143C1E63E19 /* Pods-CocoaSSDP-JX_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3894E29E43FD954CEB90B7850E3B9F32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A540CB2025190A6F433E1A53119CA8 /* CocoaSSDP-JX-umbrella.h in Headers */,
+				01948DA75E6883292F4DCE8CE6AF2592 /* SSDPService.h in Headers */,
+				39690262C85275D37FEAC9B4D9B15F29 /* SSDPServiceBrowser.h in Headers */,
+				35D3AF241BB20028C296817B95A54564 /* SSDPServiceTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D1EA6369601958CA74466ECEC409ED9 /* CocoaSSDP-JX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010D659D5065C261F26E12FB378328F6 /* Build configuration list for PBXNativeTarget "CocoaSSDP-JX" */;
+			buildPhases = (
+				3894E29E43FD954CEB90B7850E3B9F32 /* Headers */,
+				FC8492A2A39E2656005483FC3C57FA48 /* Sources */,
+				F0518017F20926705A4E9AFEBFFB9C85 /* Frameworks */,
+				E22E1F19281EB084A5F39FE078FCB901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F66347C42283DC742D702E080884D6D /* PBXTargetDependency */,
+			);
+			name = "CocoaSSDP-JX";
+			productName = CocoaSSDP_JX;
+			productReference = 44D62DA78B49F83F21EA7F5DD73D8BE7 /* CocoaSSDP-JX */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				B9BA2F3E20981E6576E8626EADB9300B /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		D56342E9D2A440DEBF12C6769202DD10 /* Pods-CocoaSSDP-JX_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BA4C5A80916779179FB86058C3E2AF /* Build configuration list for PBXNativeTarget "Pods-CocoaSSDP-JX_Example" */;
+			buildPhases = (
+				119D97C95F69A18ABCACB07FFA4EE57E /* Headers */,
+				A91FF44E272E5285388ACD8D1006FAF5 /* Sources */,
+				45AA40445BED6D0505C29775179CAAC8 /* Frameworks */,
+				1D077A1683CBCB63A8ECCD2C9381265E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51F4AAA5D7A3AAA4E1C7C91DC2C3BD1E /* PBXTargetDependency */,
+				33C7FC8A425EC0D069C3068D831EB819 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaSSDP-JX_Example";
+			productName = Pods_CocoaSSDP_JX_Example;
+			productReference = 6BDE4DF64E5350534CEC29E275895089 /* Pods-CocoaSSDP-JX_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FF0D8E5D4518EBCF75C898A098B1798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				0D1EA6369601958CA74466ECEC409ED9 /* CocoaSSDP-JX */,
+				D56342E9D2A440DEBF12C6769202DD10 /* Pods-CocoaSSDP-JX_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D077A1683CBCB63A8ECCD2C9381265E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22E1F19281EB084A5F39FE078FCB901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91FF44E272E5285388ACD8D1006FAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBB3BE3F2EC8EC42B5728B0C9C50F5C /* Pods-CocoaSSDP-JX_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */,
+				4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */,
+				37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8492A2A39E2656005483FC3C57FA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D861F7705525D4EC445E24AECB83C /* CocoaSSDP-JX-dummy.m in Sources */,
+				3AD4CF9CDA6E13068379E614F39A8698 /* SSDPService.m in Sources */,
+				06E0299C51A77593974EDD223E4C1D32 /* SSDPServiceBrowser.m in Sources */,
+				4B57ADA90DE563A53E4F9EAA0FE7FB63 /* SSDPServiceTypes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33C7FC8A425EC0D069C3068D831EB819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaSSDP-JX";
+			target = 0D1EA6369601958CA74466ECEC409ED9 /* CocoaSSDP-JX */;
+			targetProxy = 9E47CF560906BDB2433C4AA073B8D93F /* PBXContainerItemProxy */;
+		};
+		51F4AAA5D7A3AAA4E1C7C91DC2C3BD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 769FE5880AA40AF44047CE2C16551C5B /* PBXContainerItemProxy */;
+		};
+		7F66347C42283DC742D702E080884D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 90D6E7A98B496B1B053B0CC5BA1E76A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D5DFDBB412324457C14C396B950764D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7CF9F2D85AD6EB2D9F534DBEC491A7 /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B9EAF49A0A48820833CCF489D6215BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F29FE7499B83FB5FD580208F4E0F8D /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C26D03471C2239C658F02B524630116B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6977B45667C6173172281A9C759A1D6F /* CocoaSSDP-JX.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaSSDP-JX/CocoaSSDP-JX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaSSDP-JX/CocoaSSDP-JX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaSSDP-JX/CocoaSSDP-JX.modulemap";
+				PRODUCT_MODULE_NAME = CocoaSSDP_JX;
+				PRODUCT_NAME = CocoaSSDP_JX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C81BB7A6FF6661EACB710AD10B93A393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E92747B4CE900EEB8A8AFA65250491 /* Pods-CocoaSSDP-JX_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaSSDP-JX_Example/Pods-CocoaSSDP-JX_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaSSDP-JX_Example/Pods-CocoaSSDP-JX_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7C346B2DF26B83C066ACBE0544FC613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B9CCF07A05E752A5E1B4558FCC82B0 /* CocoaSSDP-JX.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaSSDP-JX/CocoaSSDP-JX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaSSDP-JX/CocoaSSDP-JX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaSSDP-JX/CocoaSSDP-JX.modulemap";
+				PRODUCT_MODULE_NAME = CocoaSSDP_JX;
+				PRODUCT_NAME = CocoaSSDP_JX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3430771EE3423BE5C46CC0716506E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE6FF628A1ED6C5EDED3819752739F9 /* Pods-CocoaSSDP-JX_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaSSDP-JX_Example/Pods-CocoaSSDP-JX_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaSSDP-JX_Example/Pods-CocoaSSDP-JX_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010D659D5065C261F26E12FB378328F6 /* Build configuration list for PBXNativeTarget "CocoaSSDP-JX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26D03471C2239C658F02B524630116B /* Debug */,
+				D7C346B2DF26B83C066ACBE0544FC613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5DFDBB412324457C14C396B950764D /* Debug */,
+				B9EAF49A0A48820833CCF489D6215BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BA4C5A80916779179FB86058C3E2AF /* Build configuration list for PBXNativeTarget "Pods-CocoaSSDP-JX_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81BB7A6FF6661EACB710AD10B93A393 /* Debug */,
+				F3430771EE3423BE5C46CC0716506E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

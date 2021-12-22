@@ -1,1 +1,8 @@
-pod "CocoaSSDP", :path => "../"
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'CocoaSSDP-JX_Example' do
+  pod 'CocoaSSDP-JX', :path => '../'
+
+end

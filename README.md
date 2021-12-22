@@ -1,26 +1,29 @@
-# CocoaSSDP
+# CocoaSSDP-JX
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/CocoaSSDP/badge.png)](http://cocoadocs.org/docsets/CocoaSSDP)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/CocoaSSDP/badge.png)](http://cocoadocs.org/docsets/CocoaSSDP)
+[![CI Status](https://img.shields.io/travis/yangjianxiang/CocoaSSDP-JX.svg?style=flat)](https://travis-ci.org/yangjianxiang/CocoaSSDP-JX)
+[![Version](https://img.shields.io/cocoapods/v/CocoaSSDP-JX.svg?style=flat)](https://cocoapods.org/pods/CocoaSSDP-JX)
+[![License](https://img.shields.io/cocoapods/l/CocoaSSDP-JX.svg?style=flat)](https://cocoapods.org/pods/CocoaSSDP-JX)
+[![Platform](https://img.shields.io/cocoapods/p/CocoaSSDP-JX.svg?style=flat)](https://cocoapods.org/pods/CocoaSSDP-JX)
 
-## Usage
+## Example
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
 ## Installation
 
-CocoaSSDP is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile:
+CocoaSSDP-JX is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-    pod "CocoaSSDP"
+```ruby
+pod 'CocoaSSDP-JX'
+```
 
 ## Author
 
-Stephane Boisson
+yangjianxiang, yangjianxiang@xunyou.com
 
 ## License
 
-CocoaSSDP is available under the MIT license. See the LICENSE file for more info.
-
+CocoaSSDP-JX is available under the MIT license. See the LICENSE file for more info.

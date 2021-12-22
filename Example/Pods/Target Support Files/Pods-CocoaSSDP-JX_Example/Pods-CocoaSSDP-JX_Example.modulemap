@@ -1,0 +1,6 @@
+framework module Pods_CocoaSSDP_JX_Example {
+  umbrella header "Pods-CocoaSSDP-JX_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

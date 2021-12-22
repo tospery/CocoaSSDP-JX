@@ -1,0 +1,23 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaSSDP-JX (1.0.0-v1):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - CocoaSSDP-JX (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+
+EXTERNAL SOURCES:
+  CocoaSSDP-JX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaSSDP-JX: ff339741e0fddac73625255155ffec2101fd99ec
+
+PODFILE CHECKSUM: c8f2ecbdd273e7201b559ff12e5362626e5f691b
+
+COCOAPODS: 1.11.2

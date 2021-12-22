@@ -1,0 +1,6 @@
+framework module CocoaSSDP_JX {
+  umbrella header "CocoaSSDP-JX-umbrella.h"
+
+  export *
+  module * { export * }
+}
