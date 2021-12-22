@@ -63,11 +63,11 @@
 		35810EC95A8C1ECEB8B73AFFD3054AFF /* Pods-CocoaSSDP-JX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaSSDP-JX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		41DEE8A2C9D85B1AE3111A98DABA3911 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		44D62DA78B49F83F21EA7F5DD73D8BE7 /* CocoaSSDP-JX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "CocoaSSDP-JX"; path = CocoaSSDP_JX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C9C2332217FBB36059B4942C0A6CC38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C9C2332217FBB36059B4942C0A6CC38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4F68C95EED56D2737288D2986D2BA488 /* SSDPServiceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceTypes.h; path = "CocoaSSDP-JX/Classes/SSDPServiceTypes.h"; sourceTree = "<group>"; };
 		517D13E58160E6AF4CC90189C711892E /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
 		51E58B4CB045F3ED7F0EA82D1966E459 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		559DF91C254F30A7BCB726BF72FEFB7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		559DF91C254F30A7BCB726BF72FEFB7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5815B4338D5167897CAADF638F47DDDA /* Pods-CocoaSSDP-JX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaSSDP-JX_Example-dummy.m"; sourceTree = "<group>"; };
 		5CE1E8858C6639EA2736554B50D9F3CC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		65B9CCF07A05E752A5E1B4558FCC82B0 /* CocoaSSDP-JX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaSSDP-JX.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,14 +85,14 @@
 		915E68F114EA3263DDC2432C067AFB57 /* SSDPServiceBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPServiceBrowser.h; path = "CocoaSSDP-JX/Classes/SSDPServiceBrowser.h"; sourceTree = "<group>"; };
 		91748C801B5567194E1265DB449A1698 /* SSDPService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPService.m; path = "CocoaSSDP-JX/Classes/SSDPService.m"; sourceTree = "<group>"; };
 		9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BED2DAEAC057FB9A976C6231C089783A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		CA111151262A9279B29C2822BBBD1E70 /* CocoaSSDP-JX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSSDP-JX-prefix.pch"; sourceTree = "<group>"; };
 		D0B2D78C6F9CED449B243AFAC5A42829 /* Pods-CocoaSSDP-JX_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaSSDP-JX_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D5BFC1A05C839EB6414C07C5E9B852BF /* SSDPService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPService.h; path = "CocoaSSDP-JX/Classes/SSDPService.h"; sourceTree = "<group>"; };
 		D5ECFA7DD7CE2D9E8386B6A61297DAE6 /* CocoaSSDP-JX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CocoaSSDP-JX.modulemap"; sourceTree = "<group>"; };
-		D772B3278579C3685B55F2D0D9AA2764 /* CocoaSSDP-JX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "CocoaSSDP-JX.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D772B3278579C3685B55F2D0D9AA2764 /* CocoaSSDP-JX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "CocoaSSDP-JX.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D81ACC90C3DE780CE1406B6D1F527035 /* Pods-CocoaSSDP-JX_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaSSDP-JX_Example-umbrella.h"; sourceTree = "<group>"; };
 		D8FC271883DDBDCDCC7162EA088F5DEF /* CocoaSSDP-JX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaSSDP-JX-Info.plist"; sourceTree = "<group>"; };
 		DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
@@ -280,7 +280,6 @@
 				78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */,
 				20FBA2814F5B8EB1A46334124B635D73 /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -569,8 +568,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -7,23 +7,34 @@
 //
 
 #import "SSDPViewController.h"
+#import <CocoaSSDP_JX/SSDPServiceTypes.h>
+#import <CocoaSSDP_JX/SSDPServiceBrowser.h>
 
-@interface SSDPViewController ()
+@interface SSDPViewController () <SSDPServiceBrowserDelegate>
+@property (nonatomic, strong) SSDPServiceBrowser *browser;
 
 @end
 
 @implementation SSDPViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.browser = [[SSDPServiceBrowser alloc] initWithInterface:nil];
+    self.browser.delegate = self;
+    [self.browser startBrowsingForServices:SSDPServiceType_All];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)ssdpBrowser:(SSDPServiceBrowser *)browser didNotStartBrowsingForServices:(NSError *)error {
+    NSLog(@"didNotStartBrowsingForServices: %@", error);
+}
+
+- (void)ssdpBrowser:(SSDPServiceBrowser *)browser didFindService:(SSDPService *)service {
+    NSLog(@"didFindService: %@", service);
+}
+
+- (void)ssdpBrowser:(SSDPServiceBrowser *)browser didRemoveService:(SSDPService *)service {
+    NSLog(@"didRemoveService: %@", service);
 }
 
 @end

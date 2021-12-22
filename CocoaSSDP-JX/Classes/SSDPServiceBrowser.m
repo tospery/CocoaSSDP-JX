@@ -131,11 +131,17 @@ typedef enum : NSUInteger {
 
     NSDictionary *interfaces = [SSDPServiceBrowser availableNetworkInterfaces];
     NSData *sourceAddress = _networkInterface? interfaces[_networkInterface] : nil;
-    if( !sourceAddress ) sourceAddress = [[interfaces allValues] firstObject];
-
-    if(![_socket bindToAddress:sourceAddress error:&err]) {
-        [self _notifyDelegateWithError:err];
-        return;
+    
+    if (!sourceAddress) {
+        if (![_socket bindToPort:SSDPMulticastUDPPort error:&err]) {
+            [self _notifyDelegateWithError:err];
+            return;
+        }
+    } else {
+        if(![_socket bindToAddress:sourceAddress error:&err]) {
+            [self _notifyDelegateWithError:err];
+            return;
+        }
     }
 
     if(![_socket joinMulticastGroup:SSDPMulticastGroupAddress error:&err]) {
@@ -255,12 +261,11 @@ typedef enum : NSUInteger {
     return headers;
 }
 
-
 - (void)_notifyDelegateWithError:(NSError *)error
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         @autoreleasepool {
-            [_delegate ssdpBrowser:self didNotStartBrowsingForServices:error];
+            [self->_delegate ssdpBrowser:self didNotStartBrowsingForServices:error];
         }
     });
 }
@@ -269,7 +274,7 @@ typedef enum : NSUInteger {
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         @autoreleasepool {
-            [_delegate ssdpBrowser:self didFindService:service];
+            [self->_delegate ssdpBrowser:self didFindService:service];
         }
     });
 }
@@ -278,11 +283,10 @@ typedef enum : NSUInteger {
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         @autoreleasepool {
-            [_delegate ssdpBrowser:self didRemoveService:service];
+            [self->_delegate ssdpBrowser:self didRemoveService:service];
         }
     });
 }
-
 
 + (NSDictionary *)availableNetworkInterfaces {
     NSMutableDictionary *addresses = [NSMutableDictionary dictionary];
